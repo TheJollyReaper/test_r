@@ -1,0 +1,19 @@
+---
+title: Bacon and cheese
+author: Me
+date: '2020-06-10'
+slug: bacon-and-cheese
+categories: []
+tags: []
+---
+
+Hey does this work?
+
+```{r}
+library(ggplot2)
+x_bar <- c("hobos", "cheeseheads", "crackheads")
+y_bar <- c(10, 3, 2)
+
+ggplot(data=NULL, aes(x=x_bar, y=y_bar)) + geom_bar(stat="identity") + ggtitle("expected wins")
+```
+
